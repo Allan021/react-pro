@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { CounterHook } from "./components/Counter/CounterHook";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
