@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CounterHook } from "./components/Counter/CounterHook";
+import { Counters } from "./pages/Counters";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CounterHook />
+    <Counters />
   </React.StrictMode>,
   document.getElementById("root")
 );
