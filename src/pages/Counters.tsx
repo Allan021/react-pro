@@ -1,7 +1,7 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
 import { CounterHook } from "../components/Counter/CounterHook";
-import { CounterReducer } from "../components/Counter/CounterReducer";
+import { CounterReducer } from "../CounterReducer/CounterReducer";
 
 export const Counters = () => {
   return (
@@ -10,6 +10,7 @@ export const Counters = () => {
         Counters
       </Typography>
       <CounterHook />
+      <hr />
       <CounterReducer />
     </div>
   );
